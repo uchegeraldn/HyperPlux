@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/spacing_medium"
+    android:paddingVertical="@dimen/spacing_x_small">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/assetContainer"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@color/background_card"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/assetImage"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:contentDescription="@string/asset_image"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/ic_image_placeholder" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/gradient_background"
+                android:contentDescription="@null"
+                app:layout_constraintBottom_toBottomOf="@id/assetImage" />
+
+            <TextView
+                android:id="@+id/assetBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_small"
+                android:background="@drawable/chip_background"
+                android:paddingHorizontal="@dimen/spacing_small"
+                android:paddingVertical="2dp"
+                android:text="@string/asset"
+                android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/assetNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_medium"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textColor="@color/text_primary"
+                app:layout_constraintTop_toBottomOf="@id/assetImage"
+                tools:text="MacBook Pro 16-inch" />
+
+            <TextView
+                android:id="@+id/assetDescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/spacing_medium"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+                android:textColor="@color/text_secondary"
+                app:layout_constraintTop_toBottomOf="@id/assetNameText"
+                tools:text="Latest model with M2 Pro chip, 32GB RAM, and 1TB SSD storage." />
+
+            <TextView
+                android:id="@+id/assetPriceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_medium"
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:textColor="@color/accent"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/assetDescriptionText"
+                tools:text="USD 2,499.00" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="@dimen/spacing_medium"
+                android:contentDescription="@string/view_asset"
+                android:src="@drawable/ic_arrow_forward"
+                app:layout_constraintBottom_toBottomOf="@id/assetPriceText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/assetPriceText"
+                app:tint="@color/text_secondary" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/assetContainer"
+        app:layout_constraintEnd_toEndOf="@id/assetContainer"
+        app:layout_constraintStart_toStartOf="@id/assetContainer"
+        app:layout_constraintTop_toTopOf="@id/assetContainer"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="@dimen/spacing_small"
+        android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+        android:textColor="@color/text_secondary"
+        app:layout_constraintEnd_toEndOf="@id/assetContainer"
+        app:layout_constraintTop_toBottomOf="@id/assetContainer"
+        tools:text="5:42 PM" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

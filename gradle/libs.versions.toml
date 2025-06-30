@@ -1,0 +1,46 @@
+[versions]
+agp = "8.9.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+supportAnnotations = "28.0.0"
+firebaseConfig = "22.1.0"
+roomTesting = "2.6.1"
+firebaseFunctions = "21.2.1"
+biometric = "1.1.0"
+firebaseDatabase = "21.0.0"
+firebaseMlVision = "24.1.0"
+securityCrypto = "1.0.0"
+toolsCore = "1.0.0-alpha13"
+cameraCore = "1.4.2"
+cameraLifecycle = "1.4.2"
+lifecycleViewmodelAndroid = "2.8.7"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+support-annotations = { group = "com.android.support", name = "support-annotations", version.ref = "supportAnnotations" }
+firebase-config = { group = "com.google.firebase", name = "firebase-config", version.ref = "firebaseConfig" }
+room-testing = { group = "androidx.room", name = "room-testing", version.ref = "roomTesting" }
+firebase-functions = { group = "com.google.firebase", name = "firebase-functions", version.ref = "firebaseFunctions" }
+biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-ml-vision = { group = "com.google.firebase", name = "firebase-ml-vision", version.ref = "firebaseMlVision" }
+security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "securityCrypto" }
+tools-core = { group = "androidx.privacysandbox.tools", name = "tools-core", version.ref = "toolsCore" }
+camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraCore" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraLifecycle" }
+lifecycle-viewmodel-android = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-android", version.ref = "lifecycleViewmodelAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

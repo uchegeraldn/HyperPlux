@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/convergence_exchange.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Curve 1: Blue curve with asset icons -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="6"
+        android:pathData="M20,20 C40,80 60,80 80,20" />
+
+    <!-- Curve 2: Purple curve with user profiles -->
+    <path
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="6"
+        android:pathData="M20,80 C40,20 60,20 80,80" />
+
+    <!-- Asset icons on Curve 1 -->
+    <!-- House icon at the start of Curve 1 -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M15,15 L20,10 L25,15 L25,25 L15,25 Z" />
+    <!-- Car icon at the end of Curve 1 -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M75,15 L85,15 L82,10 L78,10 Z" />
+
+    <!-- User profiles on Curve 2 -->
+    <!-- Profile at the start of Curve 2 -->
+    <circle android:cx="20" android:cy="80" android:r="5" android:fillColor="#8B5CF6" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,78 A2,2 0 0,1 22,80 A2,2 0 0,1 20,82 A2,2 0 0,1 18,80 A2,2 0 0,1 20,78 Z M20,84 L20,88" />
+    <!-- Profile at the end of Curve 2 -->
+    <circle android:cx="80" android:cy="80" android:r="5" android:fillColor="#8B5CF6" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,78 A2,2 0 0,1 82,80 A2,2 0 0,1 80,82 A2,2 0 0,1 78,80 A2,2 0 0,1 80,78 Z M80,84 L80,88" />
+
+    <!-- Central marketplace symbol (stall) in gold -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M45,45 L55,45 L55,55 L45,55 Z M50,40 L55,45 L45,45 Z" />
+
+</vector>

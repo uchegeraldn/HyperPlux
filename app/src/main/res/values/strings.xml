@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyperPlux</string>
+
+    <!-- Navigation -->
+    <string name="action_settings">Settings</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_assets">My Assets</string>
+    <string name="nav_marketplace">Marketplace</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_add_asset">Add New Asset</string>
+    <string name="nav_will">Will &amp; Estate</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="logout">Logout</string>
+
+    <!-- Asset Management -->
+    <string name="add_asset">Add New Asset</string>
+    <string name="edit_asset">Edit Asset</string>
+    <string name="asset_image">Asset Image</string>
+    <string name="select_image">Select Image</string>
+    <string name="basic_information">Basic Information</string>
+    <string name="asset_name">Asset Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="purchase_information">Purchase Information</string>
+    <string name="cost">Cost</string>
+    <string name="purchase_location">Purchase Location</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="current_status">Current Status</string>
+    <string name="current_location">Current Location</string>
+    <string name="condition">Condition</string>
+    <string name="share_publicly">Share Publicly</string>
+    <string name="for_sale">For Sale</string>
+    <string name="hidden">Hidden</string>
+    <string name="asking_price">Asking Price</string>
+    <string name="show_advanced_fields">Show Advanced Fields</string>
+    <string name="item_details">Item Details</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="current_value">Current Value</string>
+    <string name="warranty_information">Warranty Information</string>
+    <string name="warranty_expiration">Warranty Expiration</string>
+    <string name="warranty_details">Warranty Details</string>
+    <string name="will_information">Will &amp; Estate</string>
+    <string name="include_in_will">Include in Will</string>
+    <string name="will_instructions">Special Instructions</string>
+    <string name="select_date">Select Date</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="field_required">This field is required</string>
+    <string name="must_be_logged_in">You must be logged in to perform this action</string>
+
+    <!-- Asset List -->
+    <string name="my_assets">My Assets</string>
+    <string name="no_assets">You don\'t have any assets yet</string>
+    <string name="add_first_asset">Add your first asset</string>
+    <string name="search_assets">Search assets…</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="hidden_assets">Hidden Assets</string>
+    <string name="assets_for_sale">Assets For Sale</string>
+    <string name="all_assets">All Assets</string>
+
+    <!-- Asset Details -->
+    <string name="asset_details">Asset Details</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="offer">Make Offer</string>
+    <string name="sold">Sold</string>
+    <string name="available">Available</string>
+    <string name="loan">Loan Item</string>
+    <string name="owner">Owner</string>
+    <string name="edit_will">Edit Will Instructions</string>
+    <string name="view_more_images">View More Images</string>
+    <string name="no_warranty">No warranty information available</string>
+    <string name="warranty_valid">Warranty Valid Until %1$s</string>
+    <string name="warranty_expired">Warranty Expired</string>
+    <string name="not_for_sale">Not For Sale</string>
+    <string name="price">Price: %1$s %2$s</string>
+    <string name="purchased_on">Purchased on %1$s</string>
+    <string name="views">Views: %1$d</string>
+    <string name="likes">Likes: %1$d</string>
+    <string name="total_assets_value">Total Value: %1$s %2$s</string>
+
+    <!-- Social -->
+    <string name="like">Like</string>
+    <string name="unlike">Unlike</string>
+    <string name="dislike">Dislike</string>
+    <string name="comment">Comment</string>
+    <string name="comments">Comments</string>
+    <string name="write_comment">Write a comment…</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="followers">Followers: %1$d</string>
+    <string name="following">Following: %1$d</string>
+    <string name="view_profile">View Profile</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="display_name">Display Name</string>
+    <string name="bio">Bio (Optional)</string>
+    <string name="phone">Phone Number</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="interests">Interests</string>
+    <string name="select_interests">Select your interests</string>
+
+    <!-- Marketplace -->
+    <string name="marketplace">Marketplace</string>
+    <string name="no_items_for_sale">No items for sale</string>
+    <string name="featured">Featured</string>
+    <string name="popular">Popular</string>
+    <string name="recent">Recent</string>
+    <string name="categories">Categories</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="make_offer">Make Offer</string>
+    <string name="your_offer">Your Offer</string>
+    <string name="confirm_offer">Confirm Offer</string>
+    <string name="offer_sent">Offer sent to the owner</string>
+
+    <!-- Transactions -->
+    <string name="transaction_history">Transaction History</string>
+    <string name="no_transactions">No transactions yet</string>
+    <string name="pending_transactions">Pending Transactions</string>
+    <string name="completed_transactions">Completed Transactions</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="rejected">Rejected</string>
+    <string name="canceled">Canceled</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="transaction_amount">Amount</string>
+    <string name="transaction_date">Date</string>
+    <string name="transaction_from">From</string>
+    <string name="transaction_to">To</string>
+    <string name="transfer">Transfer</string>
+    <string name="sale">Sale</string>
+    <string name="purchase">Purchase</string>
+    <string name="loan_due">Loan Due: %1$s</string>
+    <string name="loan_return">Return Loan</string>
+    <string name="loan_returned">Loan Returned</string>
+
+    <!-- Will & Estate -->
+    <string name="will_and_estate">Will &amp; Estate Planning</string>
+    <string name="next_of_kin">Next of Kin</string>
+    <string name="next_of_kin_name">Next of Kin Name</string>
+    <string name="next_of_kin_email">Next of Kin Email</string>
+    <string name="next_of_kin_phone">Next of Kin Phone</string>
+    <string name="save_will_settings">Save Will Settings</string>
+    <string name="assign_heir">Assign Heir</string>
+    <string name="bequeathed_assets">Bequeathed Assets</string>
+    <string name="no_bequeathed_assets">No bequeathed assets yet</string>
+    <string name="will_instructions_saved">Will instructions saved</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="preferences">Preferences</string>
+    <string name="currency">Currency</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="system_default">System Default</string>
+    <string name="privacy">Privacy</string>
+    <string name="public_profile">Public Profile</string>
+    <string name="show_assets_publicly">Show Assets Publicly</string>
+    <string name="allow_messages">Allow Messages</string>
+    <string name="notifications">Notifications</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact_support">Contact Support</string>
+
+    <!-- Notifications -->
+    <string name="notification_new_like">%1$s liked your %2$s</string>
+    <string name="notification_new_comment">%1$s commented on your %2$s</string>
+    <string name="notification_new_follower">%1$s started following you</string>
+    <string name="notification_transaction_request">New %1$s request for your %2$s</string>
+    <string name="notification_transaction_complete">Your %1$s of %2$s was completed</string>
+    <string name="notification_loan_due">Loan due: %1$s is due to be returned tomorrow</string>
+    <string name="notification_maintenance_due">Maintenance due: %1$s is scheduled for maintenance</string>
+
+    <!-- Errors -->
+    <string name="error_login">Login failed: %1$s</string>
+    <string name="error_signup">Sign-up failed: %1$s</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_upload_failed">Upload failed: %1$s</string>
+    <string name="error_network">Network error: %1$s</string>
+    <string name="error_permission">Permission denied: %1$s</string>
+    <string name="error_empty_fields">Please fill all required fields</string>
+    <string name="error_transaction">Transaction failed: %1$s</string>
+
+    <!-- Success messages -->
+    <string name="success_login">Login successful</string>
+    <string name="success_signup">Sign-up successful</string>
+    <string name="success_upload">Upload successful</string>
+    <string name="success_save">Saved successfully</string>
+    <string name="success_delete">Deleted successfully</string>
+    <string name="success_transaction">Transaction completed successfully</string>
+
+    <!-- Additional string resources for new components -->
+    <string name="your_personalized_feed">Your Personalized Feed</string>
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="there">there</string>
+    <string name="no_assets_yet">You don\'t have any assets in your feed yet</string>
+    <string name="quantity_format">Quantity: %1$d</string>
+    <string name="views_likes_dislikes_format">Views: %1$d | Likes: %2$d | Dislikes: %3$d</string>
+    <string name="more_options">More options</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="create_transaction">Create Transaction</string>
+    <string name="in_will">In Will</string>
+    <string name="loaned">Loaned</string>
+
+    <!-- Permission strings -->
+    <string name="permission_required">Permission Required</string>
+    <string name="storage_permission_title">Storage Access Required</string>
+    <string name="location_permission_title">Location Access Required</string>
+    <string name="notification_permission_title">Notification Permission Required</string>
+    <string name="camera_permission_title">Camera Access Required</string>
+    <string name="permission_rationale">This permission is needed for the app to function properly.</string>
+    <string name="storage_permission_rationale">Storage permission is needed to select and save images of your assets.</string>
+    <string name="location_permission_rationale">Location permission is needed to record where your assets are located.</string>
+    <string name="notification_permission_rationale">Notification permission is needed to alert you about transactions and social interactions.</string>
+    <string name="camera_permission_rationale">Camera permission is needed to take pictures of your assets.</string>
+    <string name="permission_settings">Please enable the required permission in your device settings for the app to work properly.</string>
+    <string name="storage_permission_settings">Please enable storage permission in settings to add images to your assets.</string>
+    <string name="location_permission_settings">Please enable location permission in settings to record asset locations.</string>
+    <string name="notification_permission_settings">Please enable notification permission in settings to receive important alerts.</string>
+    <string name="camera_permission_settings">Please enable camera permission in settings to take pictures of your assets.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="storage_permission_denied">Storage permission is required to select images</string>
+
+    <!-- Error messages -->
+    <string name="error_network_connection">Network connection error. Please check your internet connection.</string>
+    <string name="error_authentication">Authentication error. Please sign in again.</string>
+    <string name="error_database">Database error occurred. Please try again.</string>
+    <string name="error_storage">Storage error. Unable to upload or download files.</string>
+    <string name="error_unknown">An unknown error occurred. Please try again.</string>
+    <string name="logged_out">You have been logged out</string>
+    <string name="member_since">Member since %1$s</string>
+    <string name="will_active">Will is active</string>
+    <string name="will_in_progress">Will in progress</string>
+    <string name="will_not_set">Will not set up</string>
+
+    <!-- Profile -->
+    <string name="profile_picture">Profile Picture</string>
+    <string name="change_profile_picture">Change profile picture</string>
+    <string name="profile_background">Profile Background</string>
+    <string name="assets">Assets</string>
+    <string name="top_assets">Top Assets</string>
+    <string name="will_settings">Will Settings</string>
+    <string name="phone_number">Phone Number (Optional)</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="display_name_required">Display name is required</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="image_processing_error">Error processing image</string>
+    <string name="profile_updated_successfully">Profile updated successfully</string>
+
+    <!-- Marketplace -->
+    <string name="view">View</string>
+    <string name="all_categories">All Categories</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Payment -->
+    <string name="payment">Payment</string>
+    <string name="payment_amount">Payment Amount</string>
+    <string name="for_asset">For Asset</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="no_payment_methods_yet">You haven\'t added any payment methods yet</string>
+    <string name="add_payment_method">Add Payment Method</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="processing">Processing…</string>
+    <string name="payment_method_type">Payment Method Type</string>
+    <string name="card_details">Card Details</string>
+    <string name="card_number">Card Number</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="cvv">CVV</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="account_number">Account Number</string>
+    <string name="routing_number">Routing Number</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="payment_identifier">Payment Identifier (Email/Wallet Address)</string>
+    <string name="save_payment_method">Save Payment Method</string>
+    <string name="invalid_card_number">Invalid card number</string>
+    <string name="invalid_cvv">CVV must be 3 or 4 digits</string>
+    <string name="required_field">This field is required</string>
+    <string name="ending_in">ending in %s</string>
+    <string name="expires">Expires %s</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="bank_account">Bank Account</string>
+    <string name="payment_method_icon">Payment method icon</string>
+    <string name="please_select_payment_method">Please select a payment method</string>
+    <string name="no_internet_connection">No internet connection available</string>
+    <string name="payment_processing_error">An error occurred while processing your payment</string>
+    <string name="payment_method_added_successfully">Payment method added successfully</string>
+    <string name="payment_successful">Payment Successful!</string>
+    <string name="payment_success_message">Your payment has been processed successfully. A receipt has been sent to your email.</string>
+    <string name="payment_date">Payment Date</string>
+    <string name="asset_purchased">Asset Purchased</string>
+    <string name="done">Done</string>
+    <string name="view_transaction">View Transaction Details</string>
+
+    <!-- App Preferences -->
+    <string name="app_preferences">App Preferences</string>
+    <string name="notifications_description">Receive push notifications about your assets and activity</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="biometric_auth_description">Use fingerprint or face ID to secure your account</string>
+    <string name="biometric_auth_not_available">Biometric authentication is not available on this device</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System default</string>
+    <string name="account">Account</string>
+    <string name="manage_payment_methods">Add, remove, or update payment methods</string>
+    <string name="go_to_payment_methods">Go to payment methods</string>
+    <string name="backup_data">Backup Data</string>
+    <string name="backup_restore_data">Backup or restore your app data</string>
+    <string name="backup_and_restore">Backup and restore</string>
+    <string name="support">Support</string>
+    <string name="open_privacy_policy">Open privacy policy</string>
+    <string name="open_terms_of_service">Open terms of service</string>
+    <string name="help_and_support">Help &amp; Support</string>
+    <string name="contact_support_team">Get help with using the app</string>
+    <string name="get_help_and_support">Get help and support</string>
+    <string name="account_actions">Account Actions</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="app_version_format">Version %1$s (%2$d)</string>
+    <string name="change">Change</string>
+    <string name="ok">OK</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="backup_data_message">Would you like to backup your data to the cloud or restore from a previous backup?</string>
+    <string name="backup_successful">Backup completed successfully</string>
+    <string name="backup_failed">Backup failed. Please try again</string>
+    <string name="restore_successful">Restore completed successfully</string>
+    <string name="restore_failed">Restore failed. Please try again</string>
+    <string name="delete_account_confirmation">Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently deleted.</string>
+    <string name="account_deleted">Your account has been deleted</string>
+    <string name="logout_confirmation">Are you sure you want to log out?</string>
+    <string name="restart_required">Restart Required</string>
+    <string name="language_change_restart">The app needs to restart to apply the language change</string>
+    <string name="restart">Restart Now</string>
+    <string name="later">Later</string>
+    <string name="cannot_open_url">Cannot open the URL</string>
+    <string name="biometric_auth_title">Biometric Authentication</string>
+    <string name="biometric_auth_subtitle">Verify your identity</string>
+    <string name="privacy_policy_url">https://hyperplux.com/privacy</string>
+    <string name="terms_of_service_url">https://hyperplux.com/terms</string>
+
+    <!-- Help and Support -->
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="support_email">support@hyperplux.com</string>
+    <string name="support_phone">+1 (800) 555-1234</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="chat_with_support_agent">Chat with a support agent</string>
+    <string name="online">ONLINE</string>
+    <string name="expand">Expand</string>
+    <string name="send_email">Send Email</string>
+    <string name="no_email_app">No email app installed</string>
+    <string name="no_phone_app">No phone app available</string>
+    <string name="support_email_subject">HyperPlux Support Request</string>
+
+    <!-- FAQ Questions and Answers -->
+    <string name="faq_how_to_add_asset_question">How do I add a new asset to my inventory?</string>
+    <string name="faq_how_to_add_asset_answer">To add a new asset, tap on the + button at the bottom of the home screen, then select \'Add Asset\'. Fill in the details of your asset including name, description, value, and other optional fields. You can also add photos of your asset by tapping on the camera icon.</string>
+    <string name="faq_what_is_will_question">What is the Will/Inheritance feature?</string>
+    <string name="faq_what_is_will_answer">The Will/Inheritance feature allows you to designate specific assets to be transferred to designated individuals in the event of your passing. This helps ensure your possessions are distributed according to your wishes. To use this feature, open an asset, tap on the \'Will Settings\' option, and select the intended recipient.</string>
+    <string name="faq_how_to_sell_asset_question">How can I list an asset for sale?</string>
+    <string name="faq_how_to_sell_asset_answer">To list an asset for sale, open the asset details page, tap on the menu in the top right corner, and select \'List for Sale\'. You can then set a price, add listing details, and choose visibility options. Once published, your asset will be visible to others in the marketplace section.</string>
+    <string name="faq_how_to_transfer_asset_question">How do I transfer an asset to another user?</string>
+    <string name="faq_how_to_transfer_asset_answer">To transfer an asset to another user, open the asset details page, tap on the menu in the top right corner, and select \'Transfer Asset\'. You can then enter the recipient\'s email address or username. The recipient will need to accept the transfer before the asset moves to their inventory.</string>
+    <string name="faq_delete_account_question">How do I delete my account?</string>
+    <string name="faq_delete_account_answer">To delete your account, go to Settings > Account Actions > Delete Account. Please note that this action is permanent and will delete all your data including assets, transactions, and personal information. Any assets that are part of pending transactions will be canceled.</string>
+    <string name="faq_payment_methods_question">What payment methods are supported?</string>
+    <string name="faq_payment_methods_answer">HyperPlux supports multiple payment methods including credit/debit cards, bank accounts, PayPal, and select cryptocurrencies. To add or manage your payment methods, go to Settings > Payment Methods. All transactions are secured with industry-standard encryption and security protocols.</string>
+
+    <!-- Onboarding Tutorial Strings -->
+    <string name="tutorial_welcome_title">Welcome to HyperPlux</string>
+    <string name="tutorial_welcome_message">Your ultimate asset management solution. Let\'s take a quick tour to get you started!</string>
+    <string name="tutorial_skip">Skip</string>
+    <string name="tutorial_next">Next</string>
+    <string name="tutorial_finish">Get Started</string>
+    <string name="tutorial_assets_title">Manage Your Assets</string>
+    <string name="tutorial_assets_message">Keep track of all your physical and digital assets in one place. Add details like purchase date, value, condition, and more.</string>
+    <string name="tutorial_tracking_title">Track Location &amp; Status</string>
+    <string name="tutorial_tracking_message">Know where your assets are at all times. Add location details and even map coordinates to never lose track of your belongings.</string>
+    <string name="tutorial_social_title">Connect &amp; Share</string>
+    <string name="tutorial_social_message">Share assets with friends and family. Like, comment, and engage with your network to showcase your collections.</string>
+    <string name="tutorial_marketplace_title">Buy &amp; Sell Assets</string>
+    <string name="tutorial_marketplace_message">Turn unwanted items into cash through our secure marketplace. Browse listings or list your own items for sale.</string>
+    <string name="tutorial_will_title">Estate Planning Made Easy</string>
+    <string name="tutorial_will_message">Prepare for the future by specifying beneficiaries for your assets. Ensure your wishes are documented and easily accessible.</string>
+
+    <!-- Asset Management Tutorial Tips -->
+    <string name="tip_add_asset_title">Adding Your First Asset</string>
+    <string name="tip_add_asset_message">Tap the + button to add a new asset. Fill in as many details as possible for better tracking and organization.</string>
+    <string name="tip_categories_title">Organize with Categories</string>
+    <string name="tip_categories_message">Group similar assets together using categories for easy management and better overview of your belongings.</string>
+    <string name="tip_photos_title">Add Multiple Photos</string>
+    <string name="tip_photos_message">Take clear photos from different angles to properly document your assets. This helps with identification and insurance claims.</string>
+    <string name="tip_receipts_title">Store Purchase Documentation</string>
+    <string name="tip_receipts_message">Scan receipts and warranty cards to keep all important documents together with your asset information.</string>
+    <string name="tip_value_tracking_title">Track Value Over Time</string>
+    <string name="tip_value_tracking_message">Regularly update current values of your assets to maintain an accurate picture of your net worth.</string>
+
+    <!-- Social Features Tutorial Tips -->
+    <string name="tip_profile_title">Complete Your Profile</string>
+    <string name="tip_profile_message">Add a profile photo and bio to connect better with other users in the HyperPlux community.</string>
+    <string name="tip_privacy_title">Control Your Privacy</string>
+    <string name="tip_privacy_message">Adjust visibility settings for each asset to control who can see your belongings. Some items are best kept private!</string>
+    <string name="tip_followers_title">Grow Your Network</string>
+    <string name="tip_followers_message">Follow other users with similar interests to discover new items and build your asset management community.</string>
+    <string name="tip_engagement_title">Boost Engagement</string>
+    <string name="tip_engagement_message">Like and comment on others\' assets to increase your profile visibility and engagement score.</string>
+
+    <!-- Marketplace Tutorial Tips -->
+    <string name="tip_selling_title">Listing Items for Sale</string>
+    <string name="tip_selling_message">Set a fair price, provide detailed information, and include high-quality photos to attract serious buyers.</string>
+    <string name="tip_secure_payment_title">Secure Transactions</string>
+    <string name="tip_secure_payment_message">Always use our integrated payment system to ensure your transactions are protected and trackable.</string>
+    <string name="tip_negotiation_title">Smart Negotiation</string>
+    <string name="tip_negotiation_message">Be open to reasonable offers and use the built-in messaging system to negotiate terms professionally.</string>
+
+    <!-- Estate Planning Tutorial Tips -->
+    <string name="tip_beneficiaries_title">Designating Beneficiaries</string>
+    <string name="tip_beneficiaries_message">Assign a beneficiary to each important asset to clearly document your wishes for inheritance.</string>
+    <string name="tip_digital_assets_title">Don\'t Forget Digital Assets</string>
+    <string name="tip_digital_assets_message">Include digital assets like online accounts, cryptocurrencies, and valuable digital files in your planning.</string>
+    <string name="tip_will_updates_title">Regular Reviews</string>
+    <string name="tip_will_updates_message">Review and update your estate plan periodically, especially after major life events like marriage, births, or relocations.</string>
+
+    <!-- Special Features Tutorial -->
+    <string name="tip_qr_codes_title">Using QR Codes</string>
+    <string name="tip_qr_codes_message">Generate unique QR codes for your assets to quickly access their details or share with others.</string>
+    <string name="tip_barcode_scanning_title">Barcode Scanning</string>
+    <string name="tip_barcode_scanning_message">Scan product barcodes to automatically import item details when adding new assets.</string>
+    <string name="tip_receipt_ocr_title">Receipt Scanner</string>
+    <string name="tip_receipt_ocr_message">Use the OCR feature to automatically extract purchase information from receipts.</string>
+    <string name="tip_chat_title">Asset Chat</string>
+    <string name="tip_chat_message">Use the messaging feature to discuss assets with potential buyers or share details with family members.</string>
+    <string name="tip_backup_title">Regular Backups</string>
+    <string name="tip_backup_message">Schedule automatic backups of your asset database to protect your information from loss.</string>
+</resources>

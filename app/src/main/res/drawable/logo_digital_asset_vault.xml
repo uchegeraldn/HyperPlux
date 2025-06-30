@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/digital_asset_vault.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Hexagon shield -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M50,10 L90,30 L90,70 L50,90 L10,70 L10,30 Z" />
+    <!-- House icon -->
+    <path
+        android:fillColor="#2DD4BF"
+        android:pathData="M40,50 L60,50 L60,70 L40,70 Z M50,40 L60,50 L40,50 Z" />
+    <!-- Pulse wave -->
+    <path
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="2"
+        android:pathData="M20,50 H80" />
+</vector>
