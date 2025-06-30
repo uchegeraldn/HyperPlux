@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/spacing_small">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/commenterImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_image_placeholder"
+        app:civ_border_color="@color/primary_light"
+        app:civ_border_width="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/commenterName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginEnd="@dimen/spacing_small"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/commentDate"
+        app:layout_constraintStart_toEndOf="@+id/commenterImage"
+        app:layout_constraintTop_toTopOf="@+id/commenterImage"
+        tools:text="John Doe" />
+
+    <TextView
+        android:id="@+id/commentText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginTop="2dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textColor="@color/text_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/commenterImage"
+        app:layout_constraintTop_toBottomOf="@+id/commenterName"
+        tools:text="This looks like a great device! How is the battery life holding up after a year of use?" />
+
+    <TextView
+        android:id="@+id/commentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+        android:textColor="@color/text_secondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/commenterName"
+        tools:text="2 days ago" />
+
+    <LinearLayout
+        android:id="@+id/commentActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_x_small"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/commenterImage"
+        app:layout_constraintTop_toBottomOf="@+id/commentText">
+
+        <TextView
+            android:id="@+id/replyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/spacing_medium"
+            android:text="@string/reply"
+            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+            android:textColor="@color/text_secondary" />
+
+        <TextView
+            android:id="@+id/likeCommentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/like"
+            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+            android:textColor="@color/text_secondary" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

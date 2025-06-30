@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- Semi-transparent background -->
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="#99000000" />
+            </shape>
+        </item>
+
+        <!-- Transparent scanner area -->
+        <item android:gravity="center">
+            <shape android:shape="rectangle">
+                <size
+                    android:width="250dp"
+                    android:height="250dp" />
+                <solid android:color="#00000000" />
+            </shape>
+        </item>
+
+        <!-- Border for scanner area -->
+        <item android:gravity="center">
+            <shape android:shape="rectangle">
+                <size
+                    android:width="254dp"
+                    android:height="254dp" />
+                <stroke
+                    android:width="2dp"
+                    android:color="@color/primary" />
+                <solid android:color="#00000000" />
+            </shape>
+        </item>
+
+        <!-- Corner markers -->
+        <!-- Top left -->
+        <item android:gravity="center">
+            <rotate android:fromDegrees="0">
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="40dp"
+                        android:height="2dp" />
+                    <solid android:color="@color/accent" />
+                    <corners android:radius="1dp" />
+                </shape>
+            </rotate>
+            <translate
+                android:x="-107dp"
+                android:y="-126dp" />
+        </item>
+        <item android:gravity="center">
+            <rotate android:fromDegrees="90">
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="40dp"
+                        android:height="2dp" />
+                    <solid android:color="@color/accent" />
+                    <corners android:radius="1dp" />
+                </shape>
+            </rotate>
+            <translate
+                android:x="-127dp"
+                android:y="-106dp" />
+        </item>
+
+        <!-- Top right -->
+        <item android:gravity="center">
+            <rotate android:fromDegrees="0">
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="40dp"
+                        android:height="2dp" />
+                    <solid android:color="@color/accent" />
+                    <corners android:radius="1dp" />
+                </shape>
+            </rotate>
+            <translate
+                android:x="107dp"
+                android:y="-126dp" />
+        </item>
+        <item android:gravity="center">
+            <rotate android:fromDegrees="90">
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="40dp"
+                        android:height="2dp" />
+                    <solid android:color="@color/accent" />
+                    <corners android:radius="1dp" />
+                </shape>
+            </rotate>
+            <translate
+                android:x="126dp"
+                android:y="-106dp" />
+        </item>
+
+        <!-- Bottom left -->
+        <item android:gravity="center">
+            <rotate android:fromDegrees="0">
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="40dp"
+                        android:height="2dp" />
+                    <solid android:color="@color/accent" />
+                    <corners android:radius="1dp" />
+                </shape>
+            </rotate>
+            <translate
+                android:x="-107dp"
+                android:y="126dp" />
+        </item>
+        <item android:gravity="center">
+            <rotate android:fromDegrees="90">
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="40dp"
+                        android:height="2dp" />
+                    <solid android:color="@color/accent" />
+                    <corners android:radius="1dp" />
+                </shape>
+            </rotate>
+            <translate
+                android:x="-126dp"
+                android:y="106dp" />
+        </item>
+
+        <!-- Bottom right -->
+        <item android:gravity="center">
+            <rotate android:fromDegrees="0">
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="40dp"
+                        android:height="2dp" />
+                    <solid android:color="@color/accent" />
+                    <corners android:radius="1dp" />
+                </shape>
+            </rotate>
+            <translate
+                android:x="107dp"
+                android:y="126dp" />
+        </item>
+        <item android:gravity="center">
+            <rotate android:fromDegrees="90">
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="40dp"
+                        android:height="2dp" />
+                    <solid android:color="@color/accent" />
+                    <corners android:radius="1dp" />
+                </shape>
+            </rotate>
+            <translate
+                android:x="126dp"
+                android:y="106dp" />
+        </item>
+
+        <!-- Scanner line animation would be handled in code -->
+    </layer-list>

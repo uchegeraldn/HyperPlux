@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_medium">
+
+        <!-- Asset Image -->
+        <ImageView
+            android:id="@+id/asset_image"
+            android:layout_width="@dimen/asset_item_image_size"
+            android:layout_height="@dimen/asset_item_image_size"
+            android:background="@drawable/image_placeholder_background"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/asset_image" />
+
+        <!-- Asset Name -->
+        <TextView
+            android:id="@+id/asset_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.HyperPlux.Subtitle"
+            app:layout_constraintEnd_toStartOf="@+id/more_button"
+            app:layout_constraintStart_toEndOf="@+id/asset_image"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="MacBook Pro" />
+
+        <!-- Asset Quantity -->
+        <TextView
+            android:id="@+id/asset_quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textAppearance="@style/TextAppearance.HyperPlux.Body"
+            android:textColor="@color/text_secondary_light"
+            app:layout_constraintEnd_toStartOf="@+id/more_button"
+            app:layout_constraintStart_toEndOf="@+id/asset_image"
+            app:layout_constraintTop_toBottomOf="@+id/asset_name"
+            tools:text="Quantity: 1" />
+
+        <!-- Asset Status Indicator -->
+        <TextView
+            android:id="@+id/asset_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:background="@drawable/status_indicator_background"
+            android:paddingStart="@dimen/margin_small"
+            android:paddingTop="2dp"
+            android:paddingEnd="@dimen/margin_small"
+            android:paddingBottom="2dp"
+            android:textAppearance="@style/TextAppearance.HyperPlux.Caption"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/asset_image"
+            app:layout_constraintTop_toBottomOf="@+id/asset_quantity"
+            tools:backgroundTint="@color/success"
+            tools:text="Available" />
+
+        <!-- Asset Views/Likes/Dislikes -->
+        <TextView
+            android:id="@+id/asset_views"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:textAppearance="@style/TextAppearance.HyperPlux.Caption"
+            android:textColor="@color/text_secondary_light"
+            app:layout_constraintEnd_toStartOf="@+id/more_button"
+            app:layout_constraintStart_toEndOf="@+id/asset_image"
+            app:layout_constraintTop_toBottomOf="@+id/asset_status"
+            tools:text="Views: 25 | Likes: 10 | Dislikes: 2" />
+
+        <!-- More Options Button -->
+        <ImageButton
+            android:id="@+id/more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/more_options"
+            android:padding="@dimen/margin_small"
+            android:src="@drawable/ic_more_vert"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/dark_gray" />
+
+        <!-- Interaction Buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/asset_views">
+
+            <ImageButton
+                android:id="@+id/like_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/like"
+                android:padding="@dimen/margin_small"
+                android:src="@drawable/ic_thumb_up"
+                app:tint="@color/like" />
+
+            <ImageButton
+                android:id="@+id/dislike_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/dislike"
+                android:padding="@dimen/margin_small"
+                android:src="@drawable/ic_thumb_down"
+                app:tint="@color/dislike" />
+
+            <ImageButton
+                android:id="@+id/share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/share"
+                android:padding="@dimen/margin_small"
+                android:src="@drawable/ic_share"
+                app:tint="@color/share" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

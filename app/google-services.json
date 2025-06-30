@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "350926382747",
+    "project_id": "hyperplux-deaa3",
+    "storage_bucket": "hyperplux-deaa3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350926382747:android:9c8b1d438c868eba45083e",
+        "android_client_info": {
+          "package_name": "com.imaginit.hyperplux"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjA2sC1ex6PQBugTtpFS9_mDDxhSDzeHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
